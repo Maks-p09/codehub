@@ -1,0 +1,30 @@
+# IDE settings
+.idea/
+
+# CMake and build output
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled files
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+
+# Locally installed compiler/toolchain files
+/src/compilers/
+
+# Local environment and generated submissions
+.env
+.env.*
+!.env.example
+submissions/
